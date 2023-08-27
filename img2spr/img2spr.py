@@ -18,7 +18,6 @@ class Img2spr:
             png_files = [file for file in os.listdir(sprite_folder) if file.endswith('.png')]
             settings_file_path = f"{sprite_folder}/{folder_name}.yy"
             with open(settings_file_path, 'r', encoding='utf8') as file:
-                print(f"Reading file: {settings_file_path}")
                 settings_data = json5.load(file)
             new_sprite = {
                 "folder_name": folder_name,
