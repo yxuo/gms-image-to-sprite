@@ -48,6 +48,14 @@ If you just want to run this program do the following:
    python -y img2spr/img2spr.py
    ```
 
+4. Run all tests:
+
+   ```powershell
+   python -m unittest discover
+   ```
+
+   For now it will run [`img2spr/test_img2spr.py`](img2spr/test_img2spr.py)
+
 ## TODO
 
 v0.0.1
@@ -56,7 +64,9 @@ v0.0.1
 - [x] Use existing sprite with existing frames to copy images onto it
 
 v0.0.2
-- [ ] Update required frames to match selected image
+- [ ] App icon
+- [ ] Add changelog and releases
+- [ ] Unit and e2e tests
 
-v0.1.0
-- [ ] 
+v0.0.3
+- [ ] Update required frames to match selected image
